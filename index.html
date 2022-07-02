@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rest Countries</title>
+    <link rel="shortcut icon" href="./assets/favicon.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v6.1.1/js/all.js"
+      integrity="sha384-xBXmu0dk1bEoiwd71wOonQLyH+VpgR1XcDH3rtxrLww5ajNTuMvBdL5SOiFZnNdp"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap"
+      rel="stylesheet"
+    />
+    
+  </head>
+  <body class="light">
+    <header>
+      <div class="header">
+        <h2>Where in the world?</h2>
+      </div>
+      <div class="theme-changer">
+        <i class="fa-solid fa-moon"></i>Dark Mode
+      </div>
+    </header>
+    <main>
+      <div class="section">
+        <div class="search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" placeholder="Search for a country…" />
+        </div>
+        <div class="filters">
+          <div class="filter">
+            <input type="text" placeholder="Filter by Region">
+            <span><i class="fa-solid fa-chevron-down"></i></span>
+          </div>
+          <div class="dropdown dropdown-block">
+              <p class="region"><b> All</b></p>
+              <p class="region">Africa</p>
+              <p class="region">America</p>
+              <p class="region">Asia</p>
+              <p class="region">Europe</p>
+              <p class="region">Oceania</p>
+          </div>
+        </div>
+      </div>
+      <div class="countries">
+        
+        </div>
+      </div>
+    </main>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

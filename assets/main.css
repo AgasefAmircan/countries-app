@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+ font-family: 'Nunito Sans';
+ background-color: var(--main-bg);
+}
+html{
+ --header-bg: #FFFFFF;
+ --header:#111517;
+ --icon-color:#111517;
+ --main-bg:#F2F2F2;
+ --search-bg:#FFFFFF;
+ --search-input:#848484;
+ --search-i:black;
+ --filter-hover-bg:#72bff5;
+}
+html[data-theme='dark']{
+--header-bg: #2B3844;
+--header:#FFFFFF;
+--icon-color:#FFFFFF;
+--main-bg:#202C36;
+--search-bg:#2B3844;
+--search-input:#FFFFFF;
+--filter-hover-bg:#6ca1c7;
+--search-i:white;
+}
