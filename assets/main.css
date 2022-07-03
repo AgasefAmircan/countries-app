@@ -16,6 +16,7 @@ html{
  --search-input:#848484;
  --search-i:black;
  --filter-hover-bg:#72bff5;
+ --backButton-bg:#ffffff;
 }
 html[data-theme='dark']{
 --header-bg: #2B3844;
@@ -26,4 +27,5 @@ html[data-theme='dark']{
 --search-input:#FFFFFF;
 --filter-hover-bg:#6ca1c7;
 --search-i:white;
+--backButton-bg:#2B3844;
 }
